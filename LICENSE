@@ -1,0 +1,26 @@
+# Modified MIT License (with Commercial Use Restriction)
+
+Copyright (c) 2026 Ahmet Gürsu Arslan (github.com/ahmetgursuarslan)
+
+Permission is hereby granted, free of charge, to any person or organization obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction—including without limitation the rights to use, copy, modify, merge, publish, distribute, and/or sublicense the Software—strictly for **Personal**, **Educational**, or **Non-Commercial Open Source** purposes, subject to the following conditions:
+
+1. The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+2. **COMMERCIAL USE RESTRICTION:** 
+   The rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, its source code, or its architectural concepts for **COMMERCIAL PURPOSES ARE STRICTLY PROHIBITED** without explicit prior written consent and the payment of a licensing fee to the Copyright Holder.
+
+   **"Commercial Purposes" is defined as, but not limited to:**
+   - Integrating the Software into a paid software application, SaaS platform, or proprietary product.
+   - Utilizing the Software within the operational workflows of a for-profit organization, design studio, or corporate entity.
+   - Using the Software, directly or indirectly, to generate revenue, including consulting services, contracting, or automated 3D asset generation for sale.
+   - Distributing the Software bundled with commercial hardware or proprietary environments.
+
+If you intend to use this Software for any Commercial Purpose, you MUST establish a legal licensing agreement.
+
+**For Commercial Licensing Inquiries, Pipeline Integrations, or Enterprise Support, please contact the author directly via GitHub:**
+Contact: https://github.com/ahmetgursuarslan
+
+---
+
+**DISCLAIMER OF WARRANTY**
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

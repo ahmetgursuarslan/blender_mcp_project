@@ -1,0 +1,23 @@
+[project]
+name = "blender-expert-mcp"
+version = "2.5.0"
+description = "Elite MCP server providing 54 structured Blender tools, semantic manual search, and resilient bridge communication."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.0.0",
+    "beautifulsoup4>=4.12.3",
+    "lxml>=5.1.0",
+    "markdownify>=0.14.1",
+    "fastembed>=0.4.1",
+    "sqlite-vec>=0.1.6",
+    "pydantic-settings>=2.7.0",
+    "httpx>=0.28.0",
+    "tenacity>=9.0.0",
+    "python-dotenv>=1.0.1",
+    "numpy>=1.24.0"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

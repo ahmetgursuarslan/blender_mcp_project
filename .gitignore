@@ -1,0 +1,35 @@
+# Python
+venv/
+venv_test/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Data (large binary files)
+data/
+blender_manual_html/
+
+# Outputs (generated renders/exports)
+outputs/
+
+# Environment
+.env
+
+# Logs
+error.log
+error.txt
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Lock files (session-specific)
+*.lock
