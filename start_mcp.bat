@@ -6,4 +6,4 @@ if not exist venv\ (
 )
 
 call venv\Scripts\activate.bat
-python src\mcp_server_v2.py
+python src\mcp_server.py

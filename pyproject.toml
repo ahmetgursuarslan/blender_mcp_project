@@ -1,7 +1,7 @@
 [project]
 name = "blender-expert-mcp"
-version = "2.5.0"
-description = "Elite MCP server providing 54 structured Blender tools, semantic manual search, and resilient bridge communication."
+version = "3.0.0"
+description = "Elite MCP server providing 54+ structured Blender tools, semantic manual search, and resilient bridge communication."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -17,6 +17,9 @@ dependencies = [
     "python-dotenv>=1.0.1",
     "numpy>=1.24.0"
 ]
+
+[project.scripts]
+blender-mcp = "src.mcp_server:main"
 
 [build-system]
 requires = ["hatchling"]
