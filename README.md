@@ -6,7 +6,7 @@
 
 An advanced, fully local **Model Context Protocol (MCP) Server** and embedded **Execution Bridge** that transforms any AI Agent into a completely autonomous 3D Technical Artist natively inside Blender.
 
-Version 2.5 expands the system to provide **~65 structured tools**, offering near-complete API coverage over Blender's subsystems including Geometry Nodes, Rigging, Environments, Nodes, Animation, Compositor, Physics, UVs, and Extensibility—all executed safely via local bridge communication.
+Version 3.0 provides **65+ structured tools**, offering near-complete API coverage over Blender's subsystems including Geometry Nodes, Rigging, Environments, Nodes, Animation, Compositor, Physics, UVs, and Extensibility—all executed safely via local bridge communication.
 
 ---
 
@@ -43,6 +43,24 @@ The v2.5 server exposes an enormous toolkit to the AI Agent. Some highlights inc
 *   **Compositing:** `manage_compositor` (Post-processing nodes)
 *   **Operations & Utility:** `batch_operations`, `library_link`, `manage_addons`, `manage_preferences`
 *   **Core Systems:** `manage_object`, `manage_mesh`, `manage_modifier`, `manage_physics`, `render_image`, `get_blender_state`, `execute_blender_code`
+
+---
+
+## 💎 Elite Utilities (Agentic Helpers)
+
+These optimized scripts and workflows bridge the gap between AI execution and professional production standards.
+
+### 1. Scene Intelligence
+- **`src/utils/summarize_scene.py`**: Generates a structured markdown summary of the scene hierarchy, statistics, and materials. Use this for "Session End" memory updates.
+
+### 2. Technical Validation
+- **`src/utils/validate_scene.py`**: Automated checks for missing UVs, empty meshes, and invalid materials. Essential for "Game-Ready" quality assurance.
+
+### 3. Standardized Workflows
+Located in `.agent/workflows/`:
+- `/studio-setup`: Automated 3-point lighting and hero camera rig creation.
+- `/asset-export`: Validates, cleans, and exports assets to GLB/FBX.
+- `/production-render`: Configures high-fidelity Cycles settings for final output.
 
 ---
 
@@ -112,7 +130,13 @@ The AI will now use specific, sandboxed, and highly-reliable structured tools in
 
 This project is released under a **Modified MIT License** with strict Commercial Use restrictions.
 
-By using this software, you agree to the conditions outlined in the `LICENSE` file.
+By using this software, you agree to the conditions outlined in the [LICENSE](LICENSE) file.
 - ✅ **Free for Personal Use:** Hobbyists, students, and individual developers.
 - ✅ **Free for Open Source:** Integrating into 100% free, open-source projects.
 - ❌ **Commercial Use Prohibited:** You may NOT use this software, its architecture, or its source code to generate revenue, within a for-profit studio pipeline, or as part of a paid product/SaaS platform without purchasing a Commercial License from the author.
+
+---
+
+## 🤝 Contributing & Community
+
+Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md) before submitting a Pull Request.
